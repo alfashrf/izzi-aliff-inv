@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png" href="img/ring.png"> <!-- Replace "favicon.png" with the path to your favicon image -->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Izzi + Aliff</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        position: relative;
+        min-height: 100vh;
+    }
+    .fixed-buttons {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        padding: 10px 0;
+        text-align: center;
+        z-index: 1000;
+        padding-left: 7px;
+        right: 0;
+    }
+    .fixed-buttons .icon {
+        display: inline-block;
+        margin: 0 10px; /* Adjusted margin to 10px */
+        cursor: pointer;
+        margin-right: 25px;
+    }
+    .fixed-buttons .icon img {
+        height: 30px;
+    }
+    .content {
+        padding: 0px; /* Added padding for better spacing */
+        padding-bottom: 60px; /* Adjusted padding to accommodate fixed buttons */
+    }
+    .container {
+        margin: 0 auto; /* Center the container horizontally */
+        max-width: 100%; /* Ensure container doesn't exceed screen width */
+       
+    }
+    h2 {
+        font-size: 40px; /* Set font size to 40px */
+    }
+    span.title-color {
+        color: #5E7053; /* Changed font color to green */
+    }
+
+    /* Media query for desktop */
+    @media (min-width: 768px) {
+        body {
+            max-width: 500px; /* Set a max-width for desktop view */
+            margin: 0 auto; /* Center the content on desktop */
+        }
+        .fixed-buttons {
+            width: 100%; /* Set full width for fixed buttons on desktop */
+            padding-left: 0; /* Remove left padding on desktop */
+        }
+        .fixed-buttons .icon {
+            margin-right: 10px; /* Adjust margin for desktop */
+        }
+    }
+    .full-ctn{
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<div class="content">
+    <div class="container">
+        <p style="margin-right: 16px!important;text-align: right;"><a style="color: black;" href="/bm/index.html" target="_self">BM </a></p>        <img class="full-ctn" src="img/fullcontent-2.png" alt="Image 1" >  
+        
+
+        <!-- Add more images as needed -->
+        <div class="fixed-buttons" id="fixed-buttons">
+            <div class="icon">
+                <img src="img/home.png" alt="Home">
+            </div>
+            <div class="icon">
+                <a href="tel:+60182219080"><img src="img/call.png" alt="Button 2"></a>
+            </div>
+            <div class="icon">
+              <a href="http://52.221.20.146/weds/gifts/index.html">  <img src="img/gifts.png" alt="Button 3"></a>
+            </div>
+            <div class="icon">
+              <a href="https://waze.com/ul/hw283s5r0y">  <img src="img/location.png" alt="Button 4"></a>
+            </div>
+            <div class="icon">
+              <a href="https://forms.gle/RHJoFrdqtJES89yj7" target="_blank">  <img src="img/rsvp.png" alt="Button 5"></a>
+            </div>
+    </div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
